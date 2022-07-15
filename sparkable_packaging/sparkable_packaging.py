@@ -43,6 +43,6 @@ def list_dir(directory, recurse=False, files=[]):
         return files 
     except:
         return os.listdir(directory)
-    finally:
+
         
     
